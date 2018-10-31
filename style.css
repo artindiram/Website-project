@@ -1,0 +1,20 @@
+.main-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-header img {
+    max-height: 7vh;
+}
+
+.picture-container {
+    margin: 10vw 2vw 2vw 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.picture-container img {
+    max-width: 30vw;
+
+}
