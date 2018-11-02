@@ -7,6 +7,33 @@
     max-height: 7vh;
 }
 
+.header-bar {
+    background-color: #e5d63b;
+    border: solid;
+    border-color: #101e51;
+    border-width: 4px;
+    border-radius: 50px;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #101e51;
+    font-family: Perpetua; 
+    font-size: 38px; 
+    font-style: italic; 
+    font-variant: small-caps; 
+    font-weight: 700; 
+}
+
+.space-maker {
+    height: 30px;
+    width: 80px;
+}
+
+body {
+    background-color: #e2e0cc;
+}
+
 .picture-container {
     margin: 10vw 2vw 2vw 2vw;
     display: flex;
@@ -17,4 +44,26 @@
 .picture-container img {
     max-width: 30vw;
 
+}
+
+.index-image {
+    border: solid;
+    border-color: #101e51;
+    border-width: 4px;
+    border-radius: 50px;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    text-decoration: none;
+    color: #101e51;
+    font-family: Perpetua; 
+    font-size: 20px; 
+    font-style: italic; 
+    font-variant: small-caps; 
+    font-weight: 700; 
 }
