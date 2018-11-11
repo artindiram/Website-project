@@ -8,18 +8,18 @@
 }
 
 .header-bar {
-    background-color: #e5d63b;
+    background-color: #fbfcc9;
     border: solid;
-    border-color: #101e51;
+    border-color: #ffd000;
     border-width: 4px;
     border-radius: 50px;
 }
 
 .home-link {
     text-decoration: none;
-    color: #101e51;
+    color: #22244f;
     font-family: Perpetua; 
-    font-size: 38px; 
+    font-size: 50px; 
     font-style: italic; 
     font-variant: small-caps; 
     font-weight: 700; 
@@ -31,7 +31,7 @@
 }
 
 body {
-    background-color: #e2e0cc;
+    background-color: #fbfcc9;
 }
 
 .picture-container {
@@ -48,9 +48,11 @@ body {
 
 .index-image {
     border: solid;
-    border-color: #101e51;
+    border-color: #ffd000;
     border-width: 4px;
     border-radius: 50px;
+    height: 200px;
+    width: 200px;
 }
 
 .footer-bar {
@@ -67,3 +69,5 @@ p{
     font-variant: small-caps; 
     font-weight: 700; 
 }
+
+#ffd000
