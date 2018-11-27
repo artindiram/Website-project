@@ -31,7 +31,8 @@
 }
 
 body {
-    background-color: #fbfcc9;
+    background-color: #ffffb3;
+    
 }
 
 .picture-container {
@@ -70,4 +71,16 @@ p{
     font-weight: 700; 
 }
 
-#ffd000
+.thumbPics
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.credits
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
