@@ -12,6 +12,10 @@
 
 <body>
     <div>
+        <div class="popUpLearning" onclick="dropPopUp()">
+            <div class="learningInfo" onclick="doSomething(event)">
+            </div>
+        </div>
         <div class="header-bar">
             <br>
             <br>
@@ -37,6 +41,7 @@
                 </div>
             </div>
             <div>
+                <button onclick="activatePopUp()"></button>
                 <img src="#" alt="This will be the displayed history item according to where the seek bar is at" id="ItemToLearn" onclick="activatePopUp()">
                 <img src="#" alt="This will show pics of the different items to learn about" id="seekLearnBar">
                 <div>
